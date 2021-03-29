@@ -5,10 +5,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'PTRootUIWebBold', sans-serif;
+  font-family: 'PTRootUIWebMedium', sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #000;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
