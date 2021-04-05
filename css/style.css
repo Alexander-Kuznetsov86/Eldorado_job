@@ -9,11 +9,155 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #000;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
   max-width: 950px;
   margin: auto;
+}
+
+@font-face {
+  font-family: 'PTRootUIWebBold';
+  src: url("../fonts/PT-Root-UI_Bold.woff") format("woff"), url("../fonts/PT-Root-UI_Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PTRootUIWebMedium';
+  src: url("../fonts/PT-Root-UI_Medium.woff") format("woff"), url("../fonts/PT-Root-UI_Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  position: relative;
+}
+
+.header__border {
+  margin: 0;
+  opacity: 0.3;
+  background-color: #000;
+}
+
+.header__selected {
+  display: block;
+  width: 207px;
+  height: 3px;
+  margin-left: -25px;
+  transform: translateY(3px);
+  background-color: #ed1d24;
+}
+
+.header-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 4px;
+}
+
+.header-wrap__logo_mvideo {
+  background-color: #ed1d24;
+  border-radius: 50%;
+  min-width: 35px;
+  min-height: 37px;
+  padding-top: 9px;
+  text-align: center;
+}
+
+.header-wrap__logo_eldorado {
+  margin-right: 22px;
+  padding-top: 4.5px;
+  min-width: 35px;
+  min-height: 35px;
+  background-color: #78bd20;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.header-txt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-txt__item {
+  padding-left: 33px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-menu__line {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  background-color: #d70e2a;
+}
+
+.header-menu__line_first {
+  margin-top: -5px;
+}
+
+.header-menu__line_second {
+  margin-top: 2px;
+}
+
+.header-menu__line_third {
+  margin-top: 9px;
+}
+
+.section__title {
+  margin-top: 38px;
+  margin-bottom: 41px;
+  font-family: 'PTRootUIWebBold', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.section__subtitle {
+  font-family: 'PTRootUIWebBold', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.section__line {
+  margin: 0;
+  opacity: 0.3;
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */
