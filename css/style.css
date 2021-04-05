@@ -149,6 +149,8 @@ img {
 }
 
 .section__subtitle {
+  margin-top: 40px;
+  margin-bottom: 50px;
   font-family: 'PTRootUIWebBold', sans-serif;
   font-size: 30px;
   line-height: 40px;
@@ -156,8 +158,137 @@ img {
 }
 
 .section__line {
-  margin: 0;
   opacity: 0.3;
   background-color: #000;
+}
+
+.new__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.new__container {
+  margin: 0;
+  width: 222px;
+  margin-right: 20px;
+}
+
+.new-design {
+  display: flex;
+}
+
+.new-design__banner {
+  margin: 0;
+  margin-right: 20px;
+  flex-shrink: 0;
+  width: 222px;
+  height: 304px;
+  padding: 20px 30px;
+  background-color: #171717;
+  overflow: auto;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.new-design__body {
+  text-align: center;
+  width: 222px;
+  height: 345px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.new-design__divider {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  opacity: 0.3;
+}
+
+.new-design__description {
+  height: 120px;
+  overflow: auto;
+  text-align: left;
+}
+
+.new-colors {
+  min-width: 222px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-colors__wrap {
+  width: 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-colors__pearl {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background: linear-gradient(270deg, #BEF0FE 0%, #FFD6D3 100%);
+  border-radius: 50px;
+}
+
+.new-colors__onyx {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background: linear-gradient(270deg, #020202 0%, #666666 100%);
+  border-radius: 50px;
+}
+
+.new-colors__aquamarine {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background: linear-gradient(270deg, #029965 0%, #66C1A2 100%);
+  border-radius: 50px;
+}
+
+.new-colors__citrus {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  background: linear-gradient(270deg, #FAEE61 0%, #FEF694 100%);
+  border-radius: 50px;
+}
+
+.new-colors__description {
+  height: 120px;
+  width: 222px;
+  overflow: auto;
+  margin-top: 20px;
+  flex-basis: 100%;
+}
+
+.new-corning {
+  width: 222px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-corning__logo {
+  width: 60px;
+  height: 60px;
+}
+
+.new-corning__description {
+  height: 120px;
+  width: 222px;
+  overflow: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.advantages-wrap {
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
