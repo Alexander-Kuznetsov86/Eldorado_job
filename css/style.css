@@ -1,26 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'PTRootUIWebMedium', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
-}
-
-img {
-  max-width: 100%;
-}
-
-.container {
-  max-width: 950px;
-  margin: auto;
-}
-
 @font-face {
   font-family: 'PTRootUIWebBold';
   src: url("../fonts/PT-Root-UI_Bold.woff") format("woff"), url("../fonts/PT-Root-UI_Bold.woff2") format("woff2");
@@ -35,6 +12,29 @@ img {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PTRootUIWebMedium', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
 }
 
 .header {
@@ -145,16 +145,16 @@ img {
   font-weight: bold;
   font-size: 38px;
   line-height: 50px;
-  color: #000000;
+  color: #000;
 }
 
 .section__subtitle {
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 43px;
+  margin-bottom: 47px;
   font-family: 'PTRootUIWebBold', sans-serif;
   font-size: 30px;
   line-height: 40px;
-  color: #000000;
+  color: #000;
 }
 
 .section__line {
@@ -201,8 +201,8 @@ img {
 }
 
 .new-design__divider {
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin-top: 22px;
+  margin-bottom: 17px;
   opacity: 0.3;
 }
 
@@ -263,7 +263,7 @@ img {
   height: 120px;
   width: 222px;
   overflow: auto;
-  margin-top: 20px;
+  margin-top: 17px;
   flex-basis: 100%;
 }
 
@@ -284,11 +284,78 @@ img {
   height: 120px;
   width: 222px;
   overflow: auto;
-  margin-top: 20px;
+  margin-top: 21px;
   margin-bottom: auto;
 }
 
-.advantages-wrap {
+.features-wrap {
   display: flex;
+}
+
+.advantages {
+  display: flex;
+}
+
+.advantages__prev {
+  max-width: 465px;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 18px;
+}
+
+.advantages-description {
+  max-width: 465px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-description__quality {
+  position: relative;
+}
+
+.advantages-description__quality::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -28px;
+  left: -102px;
+  background-image: url(../img/svg/shooting_quality-logo.svg);
+}
+
+.advantages-description__stabilization {
+  position: relative;
+}
+
+.advantages-description__stabilization::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -28px;
+  left: -102px;
+  background-image: url(../img/svg/stabilization-logo.svg);
+}
+
+.advantages-description__slow {
+  position: relative;
+}
+
+.advantages-description__slow::before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -28px;
+  left: -102px;
+  background-image: url(../img/svg/slow-motion-logo.svg);
+}
+
+.advantages-description__item {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 125px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */

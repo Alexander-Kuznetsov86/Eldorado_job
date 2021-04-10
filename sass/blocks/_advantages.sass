@@ -1,0 +1,47 @@
+.advantages
+  display: flex
+  &__prev
+    max-width: 465px
+    margin-top: 2px
+    margin-bottom: 0
+    margin-right: 18px
+  &-description
+    max-width: 465px
+    display: flex
+    flex-direction: column
+    &__quality
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        width: 60px
+        height: 60px
+        top: -28px
+        left: -102px
+        background-image: url(../img/svg/shooting_quality-logo.svg)
+    &__stabilization
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        width: 60px
+        height: 60px
+        top: -28px
+        left: -102px
+        background-image: url(../img/svg/stabilization-logo.svg)
+    &__slow
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        width: 60px
+        height: 60px
+        top: -28px
+        left: -102px
+        background-image: url(../img/svg/slow-motion-logo.svg)
+    &__item
+      display: flex
+      align-items: center
+      margin-top: 0
+      margin-left: 125px
+      margin-bottom: 40px
