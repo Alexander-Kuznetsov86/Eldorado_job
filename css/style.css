@@ -11,4 +11,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PTRootUIWebMedium', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
