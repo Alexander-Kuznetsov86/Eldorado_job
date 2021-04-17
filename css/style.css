@@ -124,6 +124,7 @@ body {
   padding-right: 25px;
   font-size: 30px;
   line-height: 40px;
+  color: #000;
 }
 
 .design-wrap {
@@ -257,7 +258,7 @@ body {
   overflow: auto;
 }
 
-.design__line {
+.design__line, .accessories__divider {
   margin: 0;
   margin-right: 25px;
   margin-left: 25px;
@@ -272,6 +273,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
+  color: #000;
 }
 
 .function-wrap {
@@ -327,5 +329,65 @@ body {
   height: 48px;
   margin-left: 27px;
   margin-right: 41px;
+}
+
+.accessories__subtitle {
+  margin-top: 0;
+  margin-bottom: 53px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000;
+}
+
+.accessories-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 60px;
+}
+
+.accessories-flex {
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accessories__line {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  opacity: 0.3;
+}
+
+.accessories-ceramic {
+  width: 222px;
+  margin: 0;
+}
+
+.accessories-power {
+  width: 222px;
+  margin: 0;
+}
+
+.accessories-desc {
+  width: 222px;
+  position: relative;
+}
+
+.accessories-desc__line {
+  margin-top: 0;
+  margin-bottom: 20px;
+  opacity: 0.3;
+}
+
+.accessories-desc__emphasis {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  background-color: #000;
 }
 /*# sourceMappingURL=style.css.map */
