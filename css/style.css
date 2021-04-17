@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'PTRootUIWebMedium';
-  src: url("../fonts/PT-Root-UI_Medium.woff") format("woff") url("../fonts/PT-Root-UI_Medium.woff2") format("woff2");
+  src: url("../fonts/PT-Root-UI_Medium.woff") format("woff"), url("../fonts/PT-Root-UI_Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PTRootUIWebBold';
-  src: url("../fonts/PT-Root-UI_Bold.woff") format("woff") url("../fonts/PT-Root-UI_Bold.woff2") format("woff2");
+  src: url("../fonts/PT-Root-UI_Bold.woff") format("woff"), url("../fonts/PT-Root-UI_Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,7 @@ body {
   margin: 0;
   font-family: 'PTRootUIWebMedium', sans-serif;
   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
+  line-height: 24px;
 }
 
 .container {
@@ -107,8 +106,6 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   font-family: 'PTRootUIWebBold', sans-serif;
-  font-style: normal;
-  font-weight: bold;
   font-size: 38px;
   line-height: 50px;
 }
@@ -253,13 +250,82 @@ body {
 
 .design-corning__desc {
   width: 223px;
+  max-height: 280px;
   margin-top: 14px;
   text-align: left;
   line-height: 24px;
+  overflow: auto;
 }
 
 .design__line {
   margin: 0;
+  margin-right: 25px;
+  margin-left: 25px;
   opacity: 0.3;
+}
+
+.function__subtitle {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.function-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 100px;
+}
+
+.function__img {
+  width: 465px;
+}
+
+.function-view {
+  width: 465px;
+}
+
+.function-view__video {
+  margin: 0;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.function-view__logo-video {
+  align-self: center;
+  height: 48px;
+  margin-left: 27px;
+  margin-right: 41px;
+}
+
+.function-view__stab {
+  margin: 0;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.function-view__logo-stab {
+  align-self: center;
+  height: 48px;
+  margin-left: 27px;
+  margin-right: 41px;
+}
+
+.function-view__slow {
+  margin: 0;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.function-view__logo-slow {
+  align-self: center;
+  height: 48px;
+  margin-left: 27px;
+  margin-right: 41px;
 }
 /*# sourceMappingURL=style.css.map */
