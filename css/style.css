@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'PTRootUIWebMedium', sans-serif;
@@ -25,7 +29,237 @@ body {
 }
 
 .container {
-  max-width: 950px;
+  max-width: 1000px;
   margin: auto;
+}
+
+.header__wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 14px 25px 5px 25px;
+}
+
+.header-logo__eldorado {
+  min-width: 35px;
+  min-height: 35px;
+  padding: 4px 6px 4px 4px;
+  margin-right: 17px;
+  background-color: #78bd20;
+  border-radius: 7px;
+}
+
+.header-logo__mvideo {
+  width: 35px;
+  height: 35px;
+  padding: 4px;
+  margin-right: 23px;
+  background-color: #ed1d24;
+  border-radius: 50%;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  max-width: 805px;
+}
+
+.header-content__txt {
+  font-size: 14px;
+}
+
+.header-button {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transform: translateY(50%, -50%);
+}
+
+.header-button__line {
+  width: 24px;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: #d70e2a;
+}
+
+.header-line {
+  position: relative;
+}
+
+.header-line__divider {
+  margin: 0;
+  opacity: 0.3;
+}
+
+.header-line__emphasis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 207px;
+  background-color: #d70e2a;
+}
+
+.title__txt {
+  margin: 40px 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'PTRootUIWebBold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.title__line {
+  margin: 0;
+  margin-right: 25px;
+  margin-left: 25px;
+  opacity: 0.3;
+}
+
+.design__subtitle {
+  margin-top: 41px;
+  margin-bottom: 53px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.design-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 60px;
+}
+
+.design-flex {
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-prev {
+  margin: 0;
+  width: 222px;
+  max-height: 304px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.design-prev__banner {
+  display: block;
+  margin: 0;
+  min-width: 162px;
+  min-height: 112px;
+}
+
+.design-prev__desc {
+  padding-top: 20px;
+  max-height: 150px;
+  overflow: auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.design-body {
+  margin: 0;
+  max-width: 222px;
+  max-height: 350px;
+  text-align: center;
+}
+
+.design-body__ceramic {
+  width: 154px;
+  height: 180px;
+}
+
+.design-body__divider {
+  width: 222px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+  opacity: 0.3;
+}
+
+.design-body__desc {
+  width: 222px;
+  max-height: 120px;
+  overflow: auto;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.design-box {
+  width: 465px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-colors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.design-colors__wrap {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.design-colors__pearl, .design-colors__aquamarine, .design-colors__onyx, .design-colors__citrus {
+  width: 26px;
+  height: 26px;
+  margin: 2px;
+  background: linear-gradient(270deg, #BEF0FE 0%, #FFD6D3 100%);
+  border-radius: 50%;
+}
+
+.design-colors__aquamarine {
+  background: linear-gradient(270deg, #020202 0%, #666666 100%);
+}
+
+.design-colors__onyx {
+  background: linear-gradient(270deg, #029965 0%, #66C1A2 100%);
+}
+
+.design-colors__citrus {
+  background: linear-gradient(270deg, #FAEE61 0%, #FEF694 100%);
+}
+
+.design-colors__desc {
+  width: 223px;
+  max-height: 280px;
+  margin-top: 18px;
+  line-height: 24px;
+  overflow: auto;
+}
+
+.design-corning__logo {
+  margin: 0;
+  text-align: center;
+}
+
+.design-corning__desc {
+  width: 223px;
+  margin-top: 14px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.design__line {
+  margin: 0;
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */
